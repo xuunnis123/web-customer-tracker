@@ -29,4 +29,8 @@ public class CustomerController {
 		
 		return "list-customers"; //list-customers.jsp
 	}
+	@RequestMapping("index")
+	public String index() {
+		return "index";
+	}
 }
