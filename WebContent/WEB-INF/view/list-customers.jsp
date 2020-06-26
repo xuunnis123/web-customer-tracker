@@ -1,10 +1,11 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-
+<%@ page contentType="text/html; charset=utf-8"%>
 <!DOCTYPE html>
 <html>
+	
 <head>
 	<title>List Customers</title>
-	
+	<!-- <meta charset="utf-8"> -->
 	<link type="text/css"
 			rel="stylesheet"
 			href="${pageContext.request.contextPath}/resources/css/style.css" />
@@ -12,6 +13,8 @@
 <body>
 	<div id="wrapper">
 		<div id="header">
+			
+			<h2>客戶管理清單</h2>
 			<h2>Customer Relationship Manager</h2>
 		</div>
 	</div>
